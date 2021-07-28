@@ -1,1 +1,0 @@
-C:\Users\Primary\ User\Desktop\texture\ synthesis\ app\MY_Examples\FLTK-RS-Examples\icon_font_enums\target\release\hello_cargo.exe: C:\Users\Primary\ User\Desktop\texture\ synthesis\ app\MY_Examples\FLTK-RS-Examples\icon_font_enums\src\main.rs
