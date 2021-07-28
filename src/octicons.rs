@@ -1,5 +1,7 @@
 
-struct Octicons;
+#[allow(dead_code)]
+pub struct Octicons;
+#[allow(dead_code)]
 impl Octicons {
 /// ## [heart](https://github.com/primer/octicons/blob/main/icons/heart-16.svg)
 

@@ -14,7 +14,6 @@ crate-type = ["lib"]
 
 
 [dev-dependencies]
-tokio = {version = "0.2.9", features = ["macros", "fs"] }
-futures = "0.3.4"
+fltk = "^1.1"
 embed-doc-image = "0.1.4"
-
+rust-embed={version = "5.8.0", featrues = ["interpolate-folder-path"]}
