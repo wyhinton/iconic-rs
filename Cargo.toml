@@ -1,14 +1,20 @@
 [package]
-name = "hello_cargo"
+name = "iconic_rs"
 version = "0.1.0"
-authors = ["Webb Hinton <wyhinton@ncsu.edu>"]
+authors = ["Webb Hinton <wyhinton189@gmail.com>"]
 edition = "2018"
+repository = "https://github.com/wyhinton/iconic-rs"
+readme = "README.md"
+license = "MIT"
+description = "Named constants for popular icon fonts."
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "iconic_rs"
+crate-type = ["lib"]
 
-[dependencies]
-fltk = "1.1.1"
-enum_str = "0.1.2"
-arraygen = "0.3.0"
-iter-enum = "1"
+
+[dev-dependencies]
+tokio = {version = "0.2.9", features = ["macros", "fs"] }
+futures = "0.3.4"
 embed-doc-image = "0.1.4"
+
