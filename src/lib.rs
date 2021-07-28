@@ -16,7 +16,7 @@
 //! ## License (please read - regarding embedded font)
 /// Octicons Icons
 #[allow(dead_code)]
-struct Octicons;
+pub struct Octicons;
 #[allow(dead_code)]
 impl Octicons {
 /// ## [heart](https://raw.githubusercontent.com/wyhinton/iconic-rs/master/icons/octicons/heart.svg)
