@@ -1,0 +1,10 @@
+^C:\USERS\PRIMARY USER\.CARGO\REGISTRY\SRC\GITHUB.COM-1ECC6299DB9EC823\FLTK-SYS-1.1.1\CFLTK\FLTK\JPEG\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Primary User/.cargo/registry/src/github.com-1ecc6299db9ec823/fltk-sys-1.1.1/cfltk" "-BC:/Users/Primary User/Desktop/texture synthesis app/MY_Examples/FLTK-RS-Examples/icon_font_enums/target/debug/build/fltk-sys-f76734b250427d09/out/build" --check-stamp-file "C:/Users/Primary User/Desktop/texture synthesis app/MY_Examples/FLTK-RS-Examples/icon_font_enums/target/debug/build/fltk-sys-f76734b250427d09/out/build/fltk/jpeg/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

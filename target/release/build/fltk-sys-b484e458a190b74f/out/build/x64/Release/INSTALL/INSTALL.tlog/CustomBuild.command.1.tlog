@@ -1,0 +1,10 @@
+^C:\USERS\PRIMARY USER\DESKTOP\TEXTURE SYNTHESIS APP\MY_EXAMPLES\FLTK-RS-EXAMPLES\ICON_FONT_ENUMS\TARGET\RELEASE\BUILD\FLTK-SYS-B484E458A190B74F\OUT\BUILD\CMAKEFILES\D0BC2031378362BEDE5216554019D8CC\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
