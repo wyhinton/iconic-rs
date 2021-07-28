@@ -11,7 +11,7 @@ fn main() {
     let font_size = 20; 
     app::set_font_size(font_size);
     let mut wind = Window::new(100, 100, 500, 500, "Hello from rust");
-    let octicons = app.load_font("Octicons.ttf").unwrap();
+    let octicons = app.load_font("fonts/Octicons.ttf").unwrap();
     let rows = 12;
     let cols = 14;
     let mut container= Pack::new(50,100,500,400,None);
